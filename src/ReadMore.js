@@ -1,8 +1,13 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import az1 from 'C:/Users/herrm/my-app/src/az1.jpg';
+import az2 from 'C:/Users/herrm/my-app/src/az2.jpg';
+import az3 from 'C:/Users/herrm/my-app/src/az3.jpg';
+import ReadMore from 'C:/Users/herrm/my-app/src/ReadMore.js';
+import { Link, BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
+    
     <div className="App">
       <div class="col-xs-1"></div>
       <div class="col-xs-8">
