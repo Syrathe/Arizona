@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import az1 from 'C:/Users/herrm/my-app/src/az1.jpg';
 import az2 from 'C:/Users/herrm/my-app/src/az2.jpg';
 import az3 from 'C:/Users/herrm/my-app/src/az3.jpg';
+import ReadMore from 'C:\Users\herrm\my-app\src/ReadMore.js';
 import {
   BrowserRouter as Router,
   Switch,
@@ -94,7 +95,6 @@ function Home() {
                   </div>
                 </div>
 
-
                 <div class="carousel-item" height = {230} px>
                   <img class="d-block w-100" src={az2} height = {230} px/>
                   <div class="carousel-caption">
@@ -103,8 +103,8 @@ function Home() {
                       <a href="ReadMore.js" class="btn btn-light" role="button">Read More</a>
                     </div>
                   </div>
-                  
                 </div>
+
                 <div class="carousel-item" height = {230} px>
                   <img class="d-block w-100" src={az3} height = {230} px/>
                   <div class="carousel-caption">
