@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import az1 from 'C:/Users/herrm/my-app/src/az1.jpg';
-import az2 from 'C:/Users/herrm/my-app/src/az2.jpg';
-import az3 from 'C:/Users/herrm/my-app/src/az3.jpg';
-import ReadMore from 'C:/Users/herrm/my-app/src/ReadMore.js';
+import az1 from './az1.jpg';
+import az2 from './az2.jpg';
+import az3 from './az3.jpg';
+import az4 from './az4.jpeg';
+//import ReadMore from 'C:/Users/herrm/my-app/src/ReadMore.js';
 import {
   BrowserRouter as Router,
   Switch,
@@ -71,9 +72,6 @@ function Home() {
                     <Router>
                       <div>
                         <ul>
-                          {/*<a href="ReadMore.js" class="btn btn-light" role="button">
-                            <Link to="/ReadMore">Read More</Link>
-                          </a>*/}
 
                           <Link to="/ReadMore">
                             <button type="button">
@@ -114,9 +112,6 @@ function Home() {
                       <a href="ReadMore.js" class="btn btn-light" role="button">Read More</a>
                     </div>
                     
-                    {/*<div class="text-right">
-                      <a  class="btn btn-light" role="button">Read More</a>
-                    </div>*/}
                   </div>
                 </div>
               </div>
@@ -191,7 +186,7 @@ function Home() {
   );
 }
 
-function fReadMore() {
+function ReadMore() {
   return (
     <div>
       <div class="col-xs-1"></div>
@@ -202,10 +197,14 @@ function fReadMore() {
         </head>
         <body>
           <div class="row">
-            <div class = "column col-xs-0  col-md-1"></div>
-            <div class = "column col-xs-8 col-md-7">
+            <div class = "column col-xs-1  col-md-1"></div>
+            <div class = "column col-xs-4 col-md-5"><img src = {az4} class = "img-responsive"  /></div>
+            <div class = "column col-xs-6 col-md-5">
               <h3>LoremIpsum</h3>
               <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec diam odio, dapibus vulputate erat vel, pretium malesuada est. Aenean non felis at erat pretium posuere. Sed lacus nunc, malesuada in enim non, viverra euismod lectus. Sed a mattis eros, vel vehicula metus. Fusce ac vestibulum urna, ut tincidunt arcu. Cras purus nulla, viverra non ligula ut, semper ultricies est. Mauris a lorem ut arcu feugiat accumsan ut non ligula. Fusce ut dolor sed erat laoreet tincidunt nec vel justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat eros sit amet purus pretium, eu aliquet nisi tempus. Vivamus a sodales eros, vel dignissim diam. Integer aliquet euismod purus, vel facilisis velit eleifend a. Maecenas molestie ut tellus eget consectetur. Fusce purus tortor, tincidunt eget magna nec, condimentum blandit lectus.</p>
+              <h3>DolotSirAmet</h3>
+              <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec diam odio, dapibus vulputate erat vel, pretium malesuada est. Aenean non felis at erat pretium posuere. Sed lacus nunc, malesuada in enim non, viverra euismod lectus. Sed a mattis eros, vel vehicula metus. Fusce ac vestibulum urna, ut tincidunt arcu. Cras purus nulla, viverra non ligula ut, semper ultricies est. Mauris a lorem ut arcu feugiat accumsan ut non ligula. Fusce ut dolor sed erat laoreet tincidunt nec vel justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat eros sit amet purus pretium, eu aliquet nisi tempus. Vivamus a sodales eros, vel dignissim diam. Integer aliquet euismod purus, vel facilisis velit eleifend a. Maecenas molestie ut tellus eget consectetur. Fusce purus tortor, tincidunt eget magna nec, condimentum blandit lectus.</p>
+            
             </div>
             
             <div class = "column col-xs-1  col-md-1"></div>
@@ -215,9 +214,7 @@ function fReadMore() {
           <div class="row">
             <div class = "column col-xs-1  col-md-1"></div>
             <div class = "column col-xs-10 col-md-10">
-              <h3>DolotSirAmet</h3>
-              <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec diam odio, dapibus vulputate erat vel, pretium malesuada est. Aenean non felis at erat pretium posuere. Sed lacus nunc, malesuada in enim non, viverra euismod lectus. Sed a mattis eros, vel vehicula metus. Fusce ac vestibulum urna, ut tincidunt arcu. Cras purus nulla, viverra non ligula ut, semper ultricies est. Mauris a lorem ut arcu feugiat accumsan ut non ligula. Fusce ut dolor sed erat laoreet tincidunt nec vel justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat eros sit amet purus pretium, eu aliquet nisi tempus. Vivamus a sodales eros, vel dignissim diam. Integer aliquet euismod purus, vel facilisis velit eleifend a. Maecenas molestie ut tellus eget consectetur. Fusce purus tortor, tincidunt eget magna nec, condimentum blandit lectus.</p>
-            </div>
+              </div>
             <div class = "column col-xs-1  col-md-1"></div>
           </div>
 

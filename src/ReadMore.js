@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import az1 from 'C:/Users/herrm/my-app/src/az1.jpg';
-import az2 from 'C:/Users/herrm/my-app/src/az2.jpg';
-import az3 from 'C:/Users/herrm/my-app/src/az3.jpg';
-import ReadMore from 'C:/Users/herrm/my-app/src/ReadMore.js';
+
+import az4 from 'C:/Users/herrm/my-app/src/az4.jpeg';
 import { Link, BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
@@ -13,10 +11,10 @@ function App() {
       <div class="col-xs-8">
         <head>
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
-          
         </head>
         <body>
           <div class="row">
+          <img src={"az4"} class="img-responsive" alt="Cinque Terre"/>
             <div class = "column col-xs-0  col-md-1"></div>
             <div class = "column col-xs-8 col-md-7">
               <h3>LoremIpsum</h3>
