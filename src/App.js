@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import az1 from 'C:/Users/herrm/my-app/src/az1.jpg';
 import az2 from 'C:/Users/herrm/my-app/src/az2.jpg';
 import az3 from 'C:/Users/herrm/my-app/src/az3.jpg';
-import ReadMore from 'C:\Users\herrm\my-app\src/ReadMore.js';
+import ReadMore from 'C:/Users/herrm/my-app/src/ReadMore.js';
 import {
   BrowserRouter as Router,
   Switch,
@@ -191,7 +191,7 @@ function Home() {
   );
 }
 
-function ReadMore() {
+function fReadMore() {
   return (
     <div>
       <div class="col-xs-1"></div>
